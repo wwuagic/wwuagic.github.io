@@ -1,440 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <base href="/">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>AGIC</title>
-      <meta name="description" content=""/>
-      <link rel="icon" href="images/agicLogo.png" type="image/png"">
-      <link rel="stylesheet" href="styles.css">
-      <script src="script.js"></script>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg site-navigation">
-         <div class=container>
-            <a class=navbar-brand href=https://kmxtaylor.github.io/wwuagic/>
-               <img src=https://kmxtaylor.github.io/wwuagic/images/agic-logo-with-name.png alt="AGIC logo">
-            </a>
-            <button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar>
-               <span class="icon-bar nav-btn"></span>
-               <span class="icon-bar nav-btn"></span>
-               <span class="icon-bar nav-btn"></span>
-            </button>
-            <div class="collapse navbar-collapse" id=sitenavbar>
-            <ul class="navbar-nav ml-auto main-nav">
-               <li class=nav-item>
-                  <a class=nav-link href=https://kmxtaylor.github.io/wwuagic/>Home</a>
-               </li>
-               <li class=nav-item>
-                  <a class=nav-link href=https://kmxtaylor.github.io/wwuagic/about>About Us</a>
-               </li>
-               <li class=nav-item>
-                     <a class="nav-link btn nav-btn btn-sm btn-sm-rounded" href=https://kmxtaylor.github.io/wwuagic/contact>
-                        <span class=btn-area>
-                           <span data-text="Get in Touch">Get in Touch</span>
-                        </span>
-                     </a>
-               </li>
-            </ul>
+<!doctype html>
+<html lang=en-us>
+    <head>
+        <meta charset=utf-8>
+        <title>WWU Association for Gender Inclusion in Computing</title>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+        <meta name=author content="Katie Taylor (AGIC)">
+        <meta name=generator content="Hugo 0.121.1">
+        <link rel=stylesheet href=https://kmxtaylor.github.io/wwuagic/css/bootstrap.min.css>
+
+        <link href=https://kmxtaylor.github.io/wwuagic/scss/style.min.css rel=stylesheet>
+        <link rel="shortcut icon" href=images/agicLogo.png type=image/x-icon>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg site-navigation">
+            <div class=container>
+                <a class=navbar-brand href=index.html>
+                    <img src=images/agicLogoWithName.png alt="AGIC logo">
+                </a>
+                <button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar>
+                    <span class="icon-bar nav-btn"></span>
+                    <span class="icon-bar nav-btn"></span>
+                    <span class="icon-bar nav-btn"></span>
+                </button>
+                <div class="collapse navbar-collapse" id=sitenavbar>
+                    <ul class="navbar-nav ml-auto main-nav">
+                        <li class=nav-item>
+                            <a class=nav-link href=index.html>Home</a>
+                        </li>
+                        <li class=nav-item>
+                            <a class=nav-link href=about.html>About Us</a>
+                        </li>
+                        <li class=nav-item>
+                            <a class="nav-link btn nav-btn btn-sm btn-sm-rounded" href=contact.html>
+                                <span class=btn-area>
+                                    <span data-text="Get in Touch">Get in Touch</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <main>
+            <section class=site-hero style=background-image:url(images/basic-background2.png)>
+                <div class=container>
+                    <div class=row>
+                        <div class="col-lg-10 mx-auto">
+                            <div class="site-hero-content text-center">
+                                <h1>WWU Association for Gender Inclusion in Computing</h1>
+                                <ul class=site-hero-content-buttons>
+                                    <li>
+                                        <a href=about.html class="btn btn-secondary">
+                                            <span class=btn-area>
+                                                <span data-text="About Us">About Us</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=contact.html class="btn btn-primary">
+                                            <span class=btn-area>
+                                                <span data-text="Connect with Us">Connect with Us</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href=#history class="site-hero-scroll scroll-to">
+                    <img src=images/down-arrow.png alt=arrow-down style="height:3rem">
+                </a>
+            </section>
+            <section id=history class=site-history>
+                <div class=container>
+                    <div class=row>
+                        <div class=col-12>
+                            <div class="top-section emphasize">Gender demographics in CS once looked very different than they do today...</div>
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>Women have played important roles in the history of computer science from the beginning, but their contributions have been historically undervalued.</p>
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>The first recognized programmer was Ada Lovelace. She was an English mathematician and writer in the 1800s and is credited as the author of the first ever published algorithm.</p>
+                        </div>
+                        <div class="col-12 img-container">
+                            <img src=images/ada-lovelace.jpg alt="Ada Lovelace">
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>In 1945, the six programmers of the first general-purpose electronic digital computer (the ENIAC) were women known as 'computer girls' -- none of whom were invited to the unveiling of the ENIAC or recognized for their contributions (until the mid 80s).</p>
+                        </div>
+                        <div class="col-12 img-container">
+                            <img src=images/computer-girls.jpg alt="Four of the original computer girls">
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>The inventor of the first compiler (and the word 'compiler' itself) was Grace Hopper. Also, in 1959, one of the first standardized programming language was created at a conference that Hopper took part.</p>
+                        </div>
+                        <div class="col-12 img-container">
+                            <img src=images/grace-hopper.jpg alt="Grace Hopper">
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>Up until the 1960s, programming was actually considered a good profession for women because it was viewed as an easy job that was not physically strenuous, like typing or filing.</p>
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>The share of female computer science majors peaked at 37% in 1983, and it started falling roughly the same period of time that personal computers grew showed up in U.S. homes.</p>
+                        </div>
+                        <div class="col-12 img-container">
+                            <img src=images/women-in-cs-line-graph.png alt="line graph showing the percent of female CS majors peaking in 1983 at 37%">
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>Early personal computers weren't much more than toys, featuring pong, simple shooting games, perhaps simple word processing. These toys were marketed almost entirely to men and boys.</p>
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>This gender imbalance carried over when those kids entered college. As personal computers became more common, computer science professors increasingly assumed that their students had grown up playing with computers at home. Male students then had a head start over to their their female counterparts because they had been exposed to computers before. The association of masculine personality characteristics with inherent programming ability increased, and the narrative shifted until programming was no longer primarily feminine work but masculine.</p>
+                        </div>
+                        <div class=col-12>
+                            <p class=site-history-paragraph>Since the peak at 37% in 1983, the percentage of female CS majors still hasn't recovered (yet), and it is sitting around 18% as of 2022.</p>
+                        </div>
+                        <div class=col-12>
+                            <div class=emphasize>It is unfortunately difficult to find data on non-binary, intersex, trans, and gender-nonconforming people in tech (and in general) because of lacking research, but a 2020 Stanford report found that nonbinary students made up less than 1% of its computer science majors.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class=site-footer>
+            <div class=container>
+                <div class=row>
+                    <div class="col-lg-2 col-md-4">
+                        <div class=site-footer-widget>
+                            <div class=site-footer-widget-title>Sitemap</div>
+                            <ul class=site-footer-widget-links>
+                                <li>
+                                    <a href=about.html>About Us</a>
+                                </li>
+                                <li>
+                                    <a href=contact.html>Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <div class=site-footer-widget>
+                            <div class=site-footer-widget-title>Social Media</div>
+                            <ul class=site-footer-widget-links>
+                                <li>
+                                    <a href=https://www.instagram.com/wwuagic/>Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=col-12>
+                        <div class=site-footer-copyright>
+                            <p>
+                                © Copyright 2024 - All Rights Reserved by <a href=https://wwuagic.com/ target=_blank>WWU AGIC</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </nav>
-        <div id="root">
-            <section id="page-0" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;">
-               <div id="background-body" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-                  <div id="background-body" style="z-index:0;">
-                     <div style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                           <div  style="width:100%;opacity:1.0;height:100%;">
-                              <div  style="background-color:#fff5ed;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                           </div>
-                     </div>
-                  </div>
-               </div>
-               <div id="background-body2" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                    <div id="XnhVqBIyWNYUKwfa" style="z-index:8;">
-                        <div id="Rm8uFg7NrR4FzEts" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="VhkB1bnbYoGzBAQk" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="Gg42TeO8c5LoEaRD" style="color:#551e00;letter-spacing:-0.1em;font-family:YAEnS5PguRQ-0;line-height:1em;text-align:center;">
-                                    <span id="RFdIWqxs9mMgXoMQ" style="color:#551e00;">Association for Gender Inclusion in Computing</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="V0DlHX6xGu1axs7q" style="z-index:9;">
-                        <div id="RwFFRP7UQ3FjFlPu" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="vc6PG0lt20Ps3ozu" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="LKXTcQ0eNbvDZxkC" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="IBxwJMEhyzRYpRO4" style="color:#551e00;">To build an empowering environment for people in gender minorities in computer science (women, non-binary, trans, gender non-conforming, etc) by providing opportunities for community, networking, professional development, and leadership</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="SpebwveclCP3K6BS">
-                        <div id="okseItDC03AvFN4a" style="display:grid;position:relative;">
-                            <div id="vai5CPEm7X1IyTeW" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="zKxM44ari1DfWgqO">
-                        <div id="ipZ0MGwXMIoVn1L6" style="display:grid;position:relative;">
-                            <div id="vA5DrwfKXoptrRpE" style="display:grid;position:relative;grid-area:4 / 2 / 7 / 5;">
-                                <div id="i6e1HVX57Mj98SQW" style="z-index:13;">
-                                    <div id="xasxzazAj3oAAJSL" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                        <svg id="SZEkXoSPId3INKER" viewBox="0 0 79.0291 74.0725" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-                                            <g id="P6mYEhfBLjiUQ3Rx" style="transform:scale(1, 1);">
-                                                <g id="il5xh6HEH35ivAux" style="clip-path:url(#CVopPwA5A5XdZMtG);">
-                                                    <clippath id="CVopPwA5A5XdZMtG">
-                                                        <path d="M39.51453772378218,0.0 L43.3479425985378,3.039055241523668 L47.77529912488202,0.8093298761575438 L50.84705854915335,4.524903233117178 L55.675118465858795,3.2019570460593103 L57.85088898053054,7.431635130422096 L62.868494705487755,7.073298015314971 L64.05343510418449,11.632274232247243 L69.04127989033769,12.254136057542997 L69.1834098059017,16.94315634168082 L73.9236754241853,18.518122408841208 L73.01681468065732,23.1321450972329 L77.30204129143752,25.591466230449665 L75.38596064005563,29.928874094493878 L79.02907544756437,33.16491543797089 L76.1873627102781,37.036244817682416 L79.02907544756437,40.90757198986173 L75.38596064005563,44.143615540870954 L77.30204129143752,48.48102340491517 L73.01681468065732,50.94034674566415 L73.9236754241853,55.554367226523624 L69.1834098059017,57.129335501216225 L69.04127989033769,61.81835468158794 L64.05343510418449,62.4402165068837 L62.868494705487755,66.99914581375637 L57.85088898053054,66.64081918442727 L55.675118465858795,70.87059219267536 L50.84705854915335,69.54758723007224 L47.77529912488202,73.2631332688207 L43.3479425985378,71.03343301413354 L39.51453772378218,74.07248963536483 L35.68113284902657,71.03343301413354 L31.253776322682345,73.2631332688207 L28.18201454316103,69.54758723007224 L23.353956981705572,70.87059219267536 L21.178186467033825,66.64081918442727 L16.160581919701603,66.99914581375637 L14.975639165754888,62.4402165068837 L9.987768471851858,61.81835468158794 L9.84561500378799,57.129335501216225 L5.105451250066219,55.554367226523624 L6.0122601780945475,50.94034674566415 L1.7269705643772613,48.48102340491517 L3.6431168683524806,44.143615540870954 L0.0,40.90757198986173 L2.841725102348691,37.036244817682416 L0.0,33.16491543797089 L3.6431168683524806,29.928874094493878 L1.7269705643772613,25.591466230449665 L6.0122601780945475,23.1321450972329 L5.105451250066219,18.518122408841208 L9.84561500378799,16.94315634168082 L9.987768471851858,12.254136057542997 L14.975639165754888,11.632274232247243 L16.160581919701603,7.073298015314971 L21.178186467033825,7.431635130422096 L23.353956981705572,3.2019570460593103 L28.18201454316103,4.524903233117178 L31.253776322682345,0.8093298761575438 L35.68113284902657,3.039055241523668 L39.51453772378218,0.0"></path>
-                                                    </clippath>
-                                                    <path id="k8Pza40zSSVuk5DB" d="M39.51453772378218,0.0 L43.3479425985378,3.039055241523668 L47.77529912488202,0.8093298761575438 L50.84705854915335,4.524903233117178 L55.675118465858795,3.2019570460593103 L57.85088898053054,7.431635130422096 L62.868494705487755,7.073298015314971 L64.05343510418449,11.632274232247243 L69.04127989033769,12.254136057542997 L69.1834098059017,16.94315634168082 L73.9236754241853,18.518122408841208 L73.01681468065732,23.1321450972329 L77.30204129143752,25.591466230449665 L75.38596064005563,29.928874094493878 L79.02907544756437,33.16491543797089 L76.1873627102781,37.036244817682416 L79.02907544756437,40.90757198986173 L75.38596064005563,44.143615540870954 L77.30204129143752,48.48102340491517 L73.01681468065732,50.94034674566415 L73.9236754241853,55.554367226523624 L69.1834098059017,57.129335501216225 L69.04127989033769,61.81835468158794 L64.05343510418449,62.4402165068837 L62.868494705487755,66.99914581375637 L57.85088898053054,66.64081918442727 L55.675118465858795,70.87059219267536 L50.84705854915335,69.54758723007224 L47.77529912488202,73.2631332688207 L43.3479425985378,71.03343301413354 L39.51453772378218,74.07248963536483 L35.68113284902657,71.03343301413354 L31.253776322682345,73.2631332688207 L28.18201454316103,69.54758723007224 L23.353956981705572,70.87059219267536 L21.178186467033825,66.64081918442727 L16.160581919701603,66.99914581375637 L14.975639165754888,62.4402165068837 L9.987768471851858,61.81835468158794 L9.84561500378799,57.129335501216225 L5.105451250066219,55.554367226523624 L6.0122601780945475,50.94034674566415 L1.7269705643772613,48.48102340491517 L3.6431168683524806,44.143615540870954 L0.0,40.90757198986173 L2.841725102348691,37.036244817682416 L0.0,33.16491543797089 L3.6431168683524806,29.928874094493878 L1.7269705643772613,25.591466230449665 L6.0122601780945475,23.1321450972329 L5.105451250066219,18.518122408841208 L9.84561500378799,16.94315634168082 L9.987768471851858,12.254136057542997 L14.975639165754888,11.632274232247243 L16.160581919701603,7.073298015314971 L21.178186467033825,7.431635130422096 L23.353956981705572,3.2019570460593103 L28.18201454316103,4.524903233117178 L31.253776322682345,0.8093298761575438 L35.68113284902657,3.039055241523668 L39.51453772378218,0.0" style="fill:#b98b73;opacity:1.0;"></path>
-                                                    <path id="X662iuaH6YRGAGdR" d="M39.51453772378218,0.0 L43.3479425985378,3.039055241523668 L47.77529912488202,0.8093298761575438 L50.84705854915335,4.524903233117178 L55.675118465858795,3.2019570460593103 L57.85088898053054,7.431635130422096 L62.868494705487755,7.073298015314971 L64.05343510418449,11.632274232247243 L69.04127989033769,12.254136057542997 L69.1834098059017,16.94315634168082 L73.9236754241853,18.518122408841208 L73.01681468065732,23.1321450972329 L77.30204129143752,25.591466230449665 L75.38596064005563,29.928874094493878 L79.02907544756437,33.16491543797089 L76.1873627102781,37.036244817682416 L79.02907544756437,40.90757198986173 L75.38596064005563,44.143615540870954 L77.30204129143752,48.48102340491517 L73.01681468065732,50.94034674566415 L73.9236754241853,55.554367226523624 L69.1834098059017,57.129335501216225 L69.04127989033769,61.81835468158794 L64.05343510418449,62.4402165068837 L62.868494705487755,66.99914581375637 L57.85088898053054,66.64081918442727 L55.675118465858795,70.87059219267536 L50.84705854915335,69.54758723007224 L47.77529912488202,73.2631332688207 L43.3479425985378,71.03343301413354 L39.51453772378218,74.07248963536483 L35.68113284902657,71.03343301413354 L31.253776322682345,73.2631332688207 L28.18201454316103,69.54758723007224 L23.353956981705572,70.87059219267536 L21.178186467033825,66.64081918442727 L16.160581919701603,66.99914581375637 L14.975639165754888,62.4402165068837 L9.987768471851858,61.81835468158794 L9.84561500378799,57.129335501216225 L5.105451250066219,55.554367226523624 L6.0122601780945475,50.94034674566415 L1.7269705643772613,48.48102340491517 L3.6431168683524806,44.143615540870954 L0.0,40.90757198986173 L2.841725102348691,37.036244817682416 L0.0,33.16491543797089 L3.6431168683524806,29.928874094493878 L1.7269705643772613,25.591466230449665 L6.0122601780945475,23.1321450972329 L5.105451250066219,18.518122408841208 L9.84561500378799,16.94315634168082 L9.987768471851858,12.254136057542997 L14.975639165754888,11.632274232247243 L16.160581919701603,7.073298015314971 L21.178186467033825,7.431635130422096 L23.353956981705572,3.2019570460593103 L28.18201454316103,4.524903233117178 L31.253776322682345,0.8093298761575438 L35.68113284902657,3.039055241523668 L39.51453772378218,0.0" style="fill:none;stroke:#551e00;stroke-linecap:butt;vector-effect:non-scaling-stroke;"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div id="GES6bcYEfO3vAssP" style="z-index:14;">
-                                    <div id="DhhCGaRw7oEw267w" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                        <div id="au6JReB9tW7Mqmv8" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-                                            <p id="qiO0OGBk22alv1WU" style="margin-left:0em;color:#551e00;letter-spacing:0.02em;font-family:YAEKEn_lQkE-0;line-height:0.99em;direction:ltr;text-align:center;">
-                                                <span id="cDt2ZHzk6yEago3u" style="color:#551e00;">% of women with bachelors degrees in CS from 1960 to now!</span>
-                                                <br>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="DsaIn7YH2HHr49Fj" style="z-index:11;">
-                                <div id="QsOli48bc42MvIKV" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <svg id="l9h6O95eErzrWiUo" viewBox="0 0 254.1883 151.9383" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-                                        <g id="uOH750gW7Xofll3B" style="transform:scale(1, 1);">
-                                            <g id="mehFOr6PM95Z0IlC" style="clip-path:url(#nPULhuPqhpRXRTIi);">
-                                                <clippath id="nPULhuPqhpRXRTIi">
-                                                    <path d="M60.13886316,0.0 L194.04943029,0.0 C209.99924849,0.0 225.29580365,6.3360406000000005 236.57402825,17.614265200000002 247.85225285,28.89248981 254.18829346,44.18904497 254.18829346,60.13886316 L254.18829346,91.79947607 C254.18829346,107.74929426 247.85225285,123.04584942 236.57402825,134.32407403 225.29580365,145.60229863 209.99924848,151.93833923 194.04943029,151.93833923 L60.13886316,151.93833923 C44.18904497,151.93833923 28.89248981,145.60229863 17.61426521,134.32407403 6.3360406000000005,123.04584942 0.0,107.74929426 0.0,91.79947607 L0.0,60.13886316 C0.0,44.18904497 6.3360406000000005,28.89248981 17.61426521,17.61426521 28.89248981,6.33604061 44.18904497,0.0 60.13886316,0.0 Z"></path>
-                                                </clippath>
-                                                <path id="yDNDxRJxap3RfzRn" d="M60.13886316,0.0 L194.04943029,0.0 C209.99924849,0.0 225.29580365,6.3360406000000005 236.57402825,17.614265200000002 247.85225285,28.89248981 254.18829346,44.18904497 254.18829346,60.13886316 L254.18829346,91.79947607 C254.18829346,107.74929426 247.85225285,123.04584942 236.57402825,134.32407403 225.29580365,145.60229863 209.99924848,151.93833923 194.04943029,151.93833923 L60.13886316,151.93833923 C44.18904497,151.93833923 28.89248981,145.60229863 17.61426521,134.32407403 6.3360406000000005,123.04584942 0.0,107.74929426 0.0,91.79947607 L0.0,60.13886316 C0.0,44.18904497 6.3360406000000005,28.89248981 17.61426521,17.61426521 28.89248981,6.33604061 44.18904497,0.0 60.13886316,0.0 Z" style="fill:#ddbea9;opacity:1.0;"></path>
-                                                <path id="GYsr5MVVy77QZewF" d="M60.13886316,0.0 L194.04943029,0.0 C209.99924849,0.0 225.29580365,6.3360406000000005 236.57402825,17.614265200000002 247.85225285,28.89248981 254.18829346,44.18904497 254.18829346,60.13886316 L254.18829346,91.79947607 C254.18829346,107.74929426 247.85225285,123.04584942 236.57402825,134.32407403 225.29580365,145.60229863 209.99924848,151.93833923 194.04943029,151.93833923 L60.13886316,151.93833923 C44.18904497,151.93833923 28.89248981,145.60229863 17.61426521,134.32407403 6.3360406000000005,123.04584942 0.0,107.74929426 0.0,91.79947607 L0.0,60.13886316 C0.0,44.18904497 6.3360406000000005,28.89248981 17.61426521,17.61426521 28.89248981,6.33604061 44.18904497,0.0 60.13886316,0.0 Z" style="fill:none;stroke:#551e00;stroke-linecap:butt;vector-effect:non-scaling-stroke;"></path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div id="q3nt3nDRa524ZVsE" style="display:grid;position:relative;grid-area:2 / 4 / 5 / 7;">
-                                <div id="waskpYCooVfoem10" style="z-index:12;">
-                                    <div id="XEgK44GOU8vo80c1" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                        <div id="bFkoH5HYjLlI7PXZ" style="width:100%;opacity:1.0;height:100%;">
-                                            <div id="fi0dfD7UQpIzXNfc" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                                <div id="MvM1fUVnoEF2lCsx" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="images/agicLogo.png" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="TOWlmSTaO41qah7B" style="z-index:15;">
-                                    <div id="osMDh1Yf3UgnTDUc" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                        <div id="QlhxSkKzjlG5nrBk" style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
-                                            <p id="i43QClAxAWYQ0Tit" style="margin-left:0em;color:#551e00;letter-spacing:0.02em;font-family:YAEKEn_lQkE-0;line-height:0.99em;direction:ltr;text-align:center;">
-                                                <span id="n1uSovhVHDRCwSqb" style="color:#551e00;">37% in 1984</span>
-                                                <br>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="tVdg8tsGGlCGaRrD" style="z-index:16;">
-                                    <div id="FdRP8MxtFiOQCVc3" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                        <div id="rQVqbjxvCRCGgTKA" style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
-                                            <p id="LNXnhYAhjaFZfJvt" style="margin-left:0em;color:#551e00;letter-spacing:0.02em;font-family:YAEKEn_lQkE-0;line-height:0.99em;direction:ltr;text-align:center;">
-                                                <span id="GB0QnxjiJexiT44i" style="color:#551e00;">18% in 2022 </span>
-                                                <br>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="page-1" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-                <div id="RNn0DcoQS1Ke8hRZ" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-                    <div id="SWuGT7w0UByBz4wC" style="z-index:0;">
-                        <div id="oAaFqakj5eq1R8xi" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="Ai0sfsRkFQEZmp3Q" style="width:100%;opacity:1.0;height:100%;">
-                                <div id="x6zIJF5iLERMiACW" style="background-color:#fff5ed;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="oF19r7rMLXiLpR5n" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                    <div id="aPVGog2uEuUhZYwX" style="z-index:8;">
-                        <div id="hFeFmSEcyrxssasa" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="WC6IzFVKzhvHJbro" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="Ym72anMFG8OAfqOl" style="color:#551e00;letter-spacing:-0.1em;font-family:YAEnS5PguRQ-0;line-height:1em;text-align:center;">
-                                    <span id="MV6gWFHVGXBQ81t5" style="color:#551e00;">Meet our Officers</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Ece63QJ1pMM0OabY">
-                        <div id="AqYBArbMXzHKku1Z" style="display:grid;position:relative;">
-                            <div id="o8jjdBGGtkflb4cq" style="z-index:2;">
-                                <div id="HUustc4fK4ZtlTJe" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="DOfuPFt3EuuerApj" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="ohRprBrlpqlZIdmc" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                            <div id="po9ge6XGvWRJ4F2N" style="transform:rotate(0deg);top:-38.19925025%;left:0%;width:100%;position:absolute;height:176.39850049%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/2567694c48bfab6626c45b60a61d9352.jpg" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="fzcZzgmU6cQQdsbK" style="z-index:9;">
-                                <div id="FIlRS1uam4damKqc" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="CwudaBc1RcCUL8d0" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                        <p id="uLXEflicFDInuODr" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="Wjsxpc8g7MrFiCyj" style="color:#551e00;">Brenn Nieva</span>
-                                        </p>
-                                        <p id="MPtSkKzFlITkNG7K" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="S7P0BFqWpzaWaRWG" style="color:#551e00;">They/She</span>
-                                        </p>
-                                        <p id="yyqdzqtvnWRnuhg4" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="jBd1V3KByZgAjZNO" style="color:#551e00;">President</span>
-                                            <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="XOUm62L4xMsVB3zk" style="z-index:5;">
-                                <div id="ew61Srl3D0AdRWPD" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="mcVTLo5p4ITplf63" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="NN9OIRTBL6kiZHtb" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="xloNqYXWMYBYMwVj" style="z-index:3;">
-                                <div id="ZYpys6GsNjw7IpTQ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="bttJnoi89X0StQaH" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="hiyDP41UBoevjpY2" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="I5b8P07MKWNB5uuM" style="z-index:10;">
-                                <div id="GvIJfjCHjPvEz16s" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="QC5k5cU6Q9zQk5FX" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                        <p id="aL9ShoZCDw9Vvjf4" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="Scytitw2gggWXGqv" style="color:#551e00;">Sarah Coffland</span>
-                                        </p>
-                                        <p id="my2a4mQSGdq5j75d" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="oyQYztZXlju6nI44" style="color:#551e00;">She/Her</span>
-                                        </p>
-                                        <p id="MeubfNm6990PKaqj" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="jQPPmNPCbMLPqdlP" style="color:#551e00;">Vice President</span>
-                                            <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="piYXcuVwAuYJXgXW" style="z-index:6;">
-                                <div id="SEPrAr2aLzbBOByw" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="yl75oWvr1e02GAR4" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="L32iZJja2YEWxATL" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="oxu7hZ2EtKCB1VNI" style="z-index:4;">
-                                <div id="Q29IkNifQI5mODI5" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="djPZArQMXwHCiogw" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="COuGd4T9Tdo6RyOG" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                            <div id="c5dZ7L76lOi46Jj1" style="transform:rotate(0deg);top:0%;left:-13.77605234%;width:127.55210468%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/c680930a81b37cb1da51d55aa7d85174.jpg" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="RoiDVTk43PH8QGVv" style="z-index:11;">
-                                <div id="FnXtFnE2EmbHL9hZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="bU5dRyOr3pxq70Ys" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                        <p id="Zeu2FfSZxIzmoMyf" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="hdKzDGlDQLcsexFr" style="color:#551e00;">Katie Christenson</span>
-                                        </p>
-                                        <p id="R1xPMCGxqXe4A3r0" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="cLZZYxzrlyLA82TA" style="color:#551e00;">She/Her</span>
-                                        </p>
-                                        <p id="AoENzZvQJw3bSu6Q" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                            <span id="vCehYfV2173ZxexH" style="color:#551e00;">Outreach Coordinator</span>
-                                            <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Gh5csdJguZvT44lE" style="z-index:7;">
-                                <div id="mwBg4qJmkWF2xBgM" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="tf7q9xK9A0CNx2oZ" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="Z4N4J6n3cIKylFJ5" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="CW4gvqbLTT5hzda2" style="z-index:12;">
-                        <div id="iFBjDmONtdlpmSVQ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="lDCIkXD4AuoYLXkc" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="wzfa4qDmGAh33bJq" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="OkR16rR402PNIGFw" style="color:#551e00;">Name</span>
-                                </p>
-                                <p id="ARirlk9sDjyjCRsy" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="MKPZIRBwtaGcJICy" style="color:#551e00;">Pronouns</span>
-                                </p>
-                                <p id="AsnHIv4K4P1wiUH4" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="o5t42Kudwje86Rb0" style="color:#551e00;">Role</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="l2eEg8RWcpQMHOkp" style="z-index:13;">
-                        <div id="nYEpC9UHsG6xbyp9" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="Wgx3qRvkedJFFQyq" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="arG1t0TZRVX5odk9" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="EkbnncJ6xlzXrIXO" style="color:#551e00;">Name</span>
-                                </p>
-                                <p id="z8aiAyii5dfGiTWW" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="DtQACimpBw2K6hoS" style="color:#551e00;">Pronouns</span>
-                                </p>
-                                <p id="pTwvg3f2N38oK8p6" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="UQbUEIhNCSJRQWzm" style="color:#551e00;">Role</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="XvEDc0xUdi8Y0fyS" style="z-index:14;">
-                        <div id="f7ej56HagJhLQKc4" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="Q6CS4kQ92948I9fz" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="IuXXkZ0FUQsxpKVY" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="WwQuowpkXMucUm49" style="color:#551e00;">Name</span>
-                                </p>
-                                <p id="OHCi8gTPKp2IACM1" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="M3jJBiOetATjZkKW" style="color:#551e00;">Pronouns</span>
-                                </p>
-                                <p id="Axj5RBurOIxfpIGr" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="tvfd7ElwBh0Klsbn" style="color:#551e00;">Role</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="page-2" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-                <div id="PXxAFRZNQKzOSErl" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-                    <div id="MUvN0UbgHmq3rk2I" style="z-index:0;">
-                        <div id="MXE6Kv2Uj96ryGVo" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="NppiO0ZogTNPlSPV" style="width:100%;opacity:1.0;height:100%;">
-                                <div id="tsC5UZ28w8777VD4" style="background-color:#fff5ed;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="DFxuDsp9IH1o9f0F" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                    <div id="S1ligejWGMjfKbwk" style="z-index:1;">
-                        <div id="Rc0Jr3hqtskiQOjc" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="NVlx9iXlYj7XPHdS" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="sxJ8GX6na7oGGySd" style="color:#551e00;letter-spacing:-0.1em;font-family:YAEnS5PguRQ-0;line-height:1em;text-align:center;">
-                                    <span id="iGQP3r1UbuoFa9zw" style="color:#551e00;">Get in Contact</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="bbgCkr0AFBaN7GP5" style="z-index:2;">
-                        <div id="yPnGDCFeAmi0uiU1" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="m7Qj73ieWYPNhRBW" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="OoGakqVXbqjwh0of" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="NJpG5LUnxoMLxbYu" style="color:#551e00;">Interested in joining?</span>
-                                    <span id="hw31KbTiMNNGNrtf" style="color:#551e00;white-space:pre-wrap;"></span>
-                                    <span id="TEUQPlwHZxyOZIlT" style="color:#551e00;">Reach out to us!</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="eXt1ZkIc8C9ORBjb" style="z-index:8;">
-                        <div id="BwQYz6r59oLtOtaG" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="NfsRKgkCzZstoInE" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="TVdedEtz9CY9826J" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="rsK2CdMxiyDxNoYn" style="color:#551e00;">We hold weekly meetings on Wednesdays from 4PM to 5PM in the CF building.</span>
-                                </p>
-                                <p id="kJkphBViPE47Q3ga" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:1.4em;text-align:center;">
-                                    <span id="bgYj03opJpFTDsz9" style="color:#551e00;">Reach out to our team for more information!</span>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="gjytXpS5YoJZn5YO">
-                        <div id="sJyxBeg9flKA4bXI" style="display:grid;position:relative;">
-                            <div id="GFDqPTlc5u57Trk0" style="z-index:4;">
-                                <div id="NIAsSe7CyNfetURg" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="ks0Aq5LevaZuxLq3" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="ZK9S5JqyCHwWegPB" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                            <div id="GsOagPPk3F5cyGiN" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/05ccce7b6b1a46518c0440756dca1ad1.svg" alt="Discord" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="lJae1zX0Azpd4uJm" style="z-index:6;">
-                                <div id="JoGedR7aj8Ch5hPA" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="RtQw6rCcDJt9RCyo" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="qIUVfnMTBCjHpDeA" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                            <div id="mJYQPoXAGWlKgoR3" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/fe172facba342e021704e4124245f0b4.svg" alt="Plain Envelope Line Style" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="MDxLNdh0qqk3G9KZ" style="z-index:5;">
-                                <div id="v5D3LySAdOA1YC68" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="LM2T6ji83PhNQBgJ" style="width:100%;opacity:1.0;height:100%;">
-                                        <div id="Yt3QNNMGj7CnqWrd" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                                            <div id="DwBm8tJ7S0UYPOno" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/cb3ac3617550a9a829e1323da2349e84.svg" alt="Instagram Outline Logo" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="sMNyPJE5xhS04tCj" style="z-index:7;">
-                                <div id="E7mOlgD86ljiJm3a" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                    <div id="GvvqR05JJWjLLslw" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                        <p id="ycPdk5N6a6zXcZ5Z" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:2.22em;text-align:justify;">
-                                            <span id="ipmNNleRK4YCdVzy" style="color:#551e00;">Discord:</span>
-                                            <span id="KpWQSuWV36oGuzUI" style="color:#551e00;white-space:pre-wrap;"></span>
-                                            <span id="cmdwksdoeNbE4ZFB" style="color:#551e00;">WWU AGIC</span>
-                                        </p>
-                                        <p id="lee7vDxCJKd0cxfX" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:2.22em;text-align:justify;">
-                                            <span id="aUzx7nlfaBzANfXH" style="color:#551e00;">Email: wwuagic@gmail.com</span>
-                                        </p>
-                                        <p id="xZ0NCBOqKcRHF0vt" style="color:#551e00;letter-spacing:-0.05em;font-family:YAEnS5PguRQ-0;line-height:2.22em;text-align:justify;">
-                                            <span id="HMYlpImr3d6kMzuR" style="color:#551e00;">IG: @wwuagic</span>
-                                            <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+        </footer>
+        
+        <script src=vendor.min.js></script>
+        <script src=script.js></script>
+
     </body>
 </html>
