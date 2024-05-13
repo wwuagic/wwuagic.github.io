@@ -489,7 +489,7 @@ textarea.form-control {
 }
 
 .site-project-item-content h3 a,.site-blog-post-content h3 a {
-   color: #171716;
+   color: #161617;
    transition: .3s ease
 }
 
@@ -1223,6 +1223,11 @@ textarea.form-control {
 
 .site-team-member-social li:not(:last-child) {
    margin-right: 10px
+}
+
+.site-team-member-linkedin {
+   object-fit: none;
+   width: 15px;
 }
 
 .site-contact {
